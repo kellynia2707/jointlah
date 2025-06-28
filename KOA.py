@@ -15,7 +15,7 @@ from reportlab.lib.utils import ImageReader
 from datetime import datetime
 
 # Load KOA classification model
-koa_model = load_model("C:/Users/nuran/OneDrive/Documents/mine/UMS/SEM6/Machine Learning/Jointlah/kneeosteoarthritis_964.95.h5", compile=False)
+koa_model = load_model("C:/Usersuser/Downloads/Jointlah/Jointlah/koa_model.h5", compile=False)
 
 # Class labels
 classes = ['Healthy', 'Moderate', 'Severe']
